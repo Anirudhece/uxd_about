@@ -189,8 +189,9 @@ html{
     height: 700px;
     background-size: contain;
 }
-#our-clint{
+#our-client{
     display: inline-block;
+    width: 430px;
     float: right;
     font-family: 'Miriam Libre',sans-serif;
     color: #000;
@@ -199,8 +200,31 @@ html{
     margin-right: 150px;
     margin-top: 300px;
 }
-.butt{
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 408.5px;
+    margin-top: 322px;
+    margin-left: 133px;
+    
+  }
+  .grid-item {
+    color: #f22855;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    font-size: 45px;
+    text-align: center;
+    width: 92px;
+  }
+
+
+
+/* .butt{
     margin-left: 124px;
+    color: #f22855
     margin-top: 305px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -210,7 +234,7 @@ html{
     align-items: center;
     border: 1px solid #e9e9e9;
     font-size: 45px;
-}
+} */
 .but{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -415,34 +439,6 @@ html{
     border-bottom-width: 0px;
 }
 
-/* .video{
-    background
-} 
-#background-video{
-    width: -moz-available;
-    
-.para{
-    font-family: 'Miriam Libre',sans-serif;
-    color: #e9e9e9;
-    font-size: 32px;
-    line-height: 46px;
-    font-weight: 400;
-    text-align: center;   
-}
-.connect{
-    margin-right: auto;
-    margin-left: auto;
-    font-family: 'Miriam Libre',sans-serif;
-    color: #000;
-    font-size: 48px;
-}
-#lets{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    width: 257px;
-    margin-right: auto;
-} */
 
 .video{
     position: relative
