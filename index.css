@@ -61,7 +61,7 @@ html{
 
 
 #upr-footer{
-    margin-top: 90px;
+    margin-top: 278px;
     text-align: center;
 }
 #upr-footer a{
@@ -457,6 +457,7 @@ html{
 #bellow-vid{
     background-color: white;
     position: absolute; 
+    height: 468px;
     top: 500px; 
     left: 25%; 
     right: 25%; 
